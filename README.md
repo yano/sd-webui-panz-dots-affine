@@ -1,4 +1,4 @@
-# Panz-Affine
+# Panz-Dots-Affine
 
 Stable Diffusion extention for myself.
 
