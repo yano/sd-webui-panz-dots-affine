@@ -222,7 +222,7 @@ class ScriptPostprocessingUpscale(scripts_postprocessing.ScriptPostprocessing):
                     # Create a new directory because it does not exist
                     os.makedirs(output_dir)
                     print("The new directory is created!")
-                cv2.imwrite(output_dir + "\\" + str(counter).zfill(5) + '.png', warp_target)
+                cv2.imwrite(output_dir + "\\" + str(counter+11).zfill(5) + '.png', warp_target)
 
                 counter += 1
 
